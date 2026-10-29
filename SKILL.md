@@ -93,12 +93,14 @@ Numeric limits; exceeding any of them is a flag regardless of context:
 | locus / nexus / vantage (point) | place, center, view — or name the thing |
 | primitive (noun) / modality | name the actual operation, type or mode |
 | surface (as in "API surface") | the API, the calls it exposes |
-| harness / scaffolding (metaphor) | name the actual tool or structure |
+| harness / scaffolding (noun, metaphor) | name the actual tool or structure |
 | gold-plating | more than the job needs |
 | ratchet (metaphor) | the mechanism's real name, or a limit that only tightens |
 | evacuate (code) | move out |
 | endgame | the last phase |
 | north star / flywheel | name the actual goal or feedback loop |
+
+Literal terms of art stand in every profile: test harness, test scaffolding, attack surface, attack vector, a language or cryptographic primitive, an imaging modality, gold-plating as a project-management term.
 
 ### English — Tier 2 (flag when 2+ in one paragraph)
 
@@ -146,6 +148,8 @@ significant(ly), innovative, effective(ly), dynamic(s), scalable, compelling, un
 | ermöglicht es, ... zu | erlaubt, ... / kann |
 | Paradigma / Paradigmenwechsel | Modell / konkret sagen, was sich ändert |
 | Nordstern (metaphorisch) | Ziel — oder das Ziel nennen |
+
+Fachbegriffe bleiben stehen: Programmierparadigma, Angriffsfläche, Angriffsvektor.
 
 ### Deutsch — Tier 2 (Flag ab 2 im selben Absatz)
 
@@ -656,7 +660,7 @@ Condensed — words to watch plus fix, no long examples.
 Calibrate strictness to the document type (auto-detect from content):
 
 - **blog/essay** (default): all rules at full strength.
-- **technical docs/README**: clarity over voice; lists are fine (skip excessive-bullets rule); `robust`, `comprehensive`, `seamless`, `ecosystem`, `leverage`, `streamline` can carry technical meaning — still flag `delve`, `tapestry`, `testament to`, `game-changer`. Metaphor nouns from the Tier 1 table (substrate, primitive, harness, surface, scaffolding, vector) are fine when they are the literal term of art: a test harness, test scaffolding, an attack surface or attack vector, a language primitive.
+- **technical docs/README**: clarity over voice; lists are fine (skip excessive-bullets rule); `robust`, `comprehensive`, `seamless`, `ecosystem`, `leverage`, `streamline` can carry technical meaning — still flag `delve`, `tapestry`, `testament to`, `game-changer`.
 - **business report / customer deliverable (DE: Bericht, Konzept, Szenario, Offerte)**: sober register expected; extra strict on promotional language, significance inflation, self-congratulatory narration (#26–31), and didactic pointers; first-person opinions sparingly; structure (headings, numbered questions) is legitimate.
 - **email / short note**: catch only P0 + worst P1; brevity beats polish.
 - **course / landing / offer copy (DE)**: the principal writes these as a letter to one reader. First person, du-form, Swiss spelling (ss, «»). Concrete deliverables before any metaphor; define a course metaphor (Nebel, Karte) through the reader's pain before using it. All rules at full strength, plus the "Principal corrections, September 2026" list in GERMAN-SPECIFIC TELLS. Structure tells count as much as words: no icon grids, no symmetric card triplets, no bad/good split, no "Bereit …?" CTA band, no slogan headings built on antithesis. Reference: `~/work/ai-consulting/supertag-course/courses/c-005-deine-persoenliche-ki/landing/index.html` (v3.4, principal-edited).
@@ -767,6 +771,7 @@ Sources:
 - [LifeOS AI Writing Patterns](https://docs.ourlifeos.ai/Writing__AIWritingPatterns) — severity tiers, word replacement tables, hard budgets, context profiles, rewrite-vs-patch rule, patterns 32–38.
 - German adaptation (DE word tables, German-specific tells): this skill, July 2026.
 - Principal corrections on DE course/landing copy (announced candour, reassuring tags, "genau darum" hinge, predicate inversion, slogan pairs, winking captions, pre-emptive negation, defensive closers, implementation detail, internal names): this skill v3.1, September 2026.
-- Metaphor jargon nouns in the EN Tier 1 table (substrate through flywheel): adapted from rule 26 of [pstack unslop](https://github.com/cursor/plugins/blob/c742dd61706fbacc1b95f1a20b7b988cf096ce6c/pstack/skills/unslop/SKILL.md) (MIT, © 2026 Lauren Tan), v3.2, October 2026.
+- Metaphor jargon nouns in the EN Tier 1 table (substrate through flywheel): adapted from rule 26 of [pstack unslop](https://github.com/cursor/plugins/blob/c742dd61706fbacc1b95f1a20b7b988cf096ce6c/pstack/skills/unslop/SKILL.md) (MIT, © 2026 Lauren Tan), v3.2, October 2026; replacements beyond upstream's are this skill's.
+- DE Paradigma/Nordstern rows: this skill, v3.2, October 2026.
 
 Key insight from Wikipedia: "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
