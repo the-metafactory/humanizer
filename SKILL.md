@@ -1,7 +1,7 @@
 ---
 name: humanizer
 effort: low
-version: 3.1.0
+version: 3.2.0
 description: |
   Remove signs of AI-generated writing from German and English text. Use when
   editing or reviewing text to make it sound more natural and human-written.
@@ -87,6 +87,20 @@ Numeric limits; exceeding any of them is a flag regardless of context:
 | at its core / in order to / due to the fact that | (cut) / to / because |
 | synergy / interplay / ecosystem (metaphor) | describe the actual relationship |
 | paradigm / watershed moment / cornerstone | model, turning point, foundation |
+| substrate / bedrock (metaphor) | base |
+| wedge / wedge in (metaphor) | add, way in |
+| vector (metaphor, not maths or attack vector) | way, method |
+| locus / nexus / vantage (point) | place, center, view — or name the thing |
+| primitive (noun) / modality | name the actual operation, type or mode |
+| surface (as in "API surface") | the API, the calls it exposes |
+| harness / scaffolding (noun, metaphor) | name the actual tool or structure |
+| gold-plating | more than the job needs |
+| ratchet (metaphor) | the mechanism's real name, or a limit that only tightens |
+| evacuate (code) | move out |
+| endgame | the last phase |
+| north star / flywheel | name the actual goal or feedback loop |
+
+Literal terms of art stand in every profile: test harness, test scaffolding, attack surface, attack vector, a language or cryptographic primitive, an imaging modality, gold-plating as a project-management term.
 
 ### English — Tier 2 (flag when 2+ in one paragraph)
 
@@ -132,6 +146,10 @@ significant(ly), innovative, effective(ly), dynamic(s), scalable, compelling, un
 | nicht zuletzt | streichen oder konkret |
 | im Rahmen von | bei, während, für |
 | ermöglicht es, ... zu | erlaubt, ... / kann |
+| Paradigma / Paradigmenwechsel | Modell / konkret sagen, was sich ändert |
+| Nordstern (metaphorisch) | Ziel — oder das Ziel nennen |
+
+Fachbegriffe bleiben stehen: Programmierparadigma, Angriffsfläche, Angriffsvektor.
 
 ### Deutsch — Tier 2 (Flag ab 2 im selben Absatz)
 
@@ -753,5 +771,7 @@ Sources:
 - [LifeOS AI Writing Patterns](https://docs.ourlifeos.ai/Writing__AIWritingPatterns) — severity tiers, word replacement tables, hard budgets, context profiles, rewrite-vs-patch rule, patterns 32–38.
 - German adaptation (DE word tables, German-specific tells): this skill, July 2026.
 - Principal corrections on DE course/landing copy (announced candour, reassuring tags, "genau darum" hinge, predicate inversion, slogan pairs, winking captions, pre-emptive negation, defensive closers, implementation detail, internal names): this skill v3.1, September 2026.
+- Metaphor jargon nouns in the EN Tier 1 table (substrate through flywheel): adapted from rule 26 of [pstack unslop](https://github.com/cursor/plugins/blob/c742dd61706fbacc1b95f1a20b7b988cf096ce6c/pstack/skills/unslop/SKILL.md) (MIT, © 2026 Lauren Tan), v3.2, October 2026; replacements beyond upstream's are this skill's.
+- DE Paradigma/Nordstern rows: this skill, v3.2, October 2026.
 
 Key insight from Wikipedia: "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
